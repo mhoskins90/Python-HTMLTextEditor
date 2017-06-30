@@ -43,7 +43,7 @@ class EditorProgram(Tk):
 		try:
 			print('Save Dialog Initiated...')
 			savelocation=tkinter.filedialog.asksaveasfilename(defaultextension=".mh", filetypes=(("HoskinsEditor Document", "*.mh"),("Text Document", "*.txt"),\
-				("Python Document", "*.py"),("C Document", "*.c"),("HTML Document", "*.html"),("PHP Document", "*.php"),("All Files", "*.*") ))
+				("Python Document", "*.py"),("Java Document", "*.javac"),("C Document", "*.c"),("HTML Document", "*.html"),("PHP Document", "*.php"),("All Files", "*.*") ))
 			file=open(savelocation, "w+")
 			file.write(t)
 			file.close()
