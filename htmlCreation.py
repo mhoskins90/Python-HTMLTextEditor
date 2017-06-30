@@ -3,26 +3,14 @@
 document_name = input('What do you want the document name to be?: ')
 file_name = "{0}{1}".format(document_name, ".html")
 
-INITIAL_HTML_TAGS = '\
-<!doctype html>\n\<html>\n\
-<head>\n\
-<meta charset="utf-8">\n\
-'
+INITIAL_HTML_TAGS = '\<!doctype html><html><head><meta charset="utf-8">'
 
-TITLE = '<title>{0}</title>\n'.format("starting text".lower().title())
-KEYWORDS = '<meta name="keywords" content="{0}" />\n'.format("Starting, Text")
-DESCRIPTION = '<meta name="description" content="{0}" />\n'.format("starting text".capitalize())
+TITLE = '<title>{0}</title>'.format("starting text".lower().title())
+KEYWORDS = '<meta name="keywords" content="{0}" />'.format("Starting, Text")
+DESCRIPTION = '<meta name="description" content="{0}" />'.format("starting text".capitalize())
 JQUERY_LINK = 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'
 JQUERY_LINK_TAG = '<script src="{0}"></script>'.format(JQUERY_LINK)
-JQUERY_DOCUMENT_READY_FUNCTION ='\
-<script type="text/javascript">\n\
-$(document).ready(function() {\n\
-\n\
-//SCRIPT HERE\n\
-\n\
-}); //END DOCUMENT READY\n\
-</script>\
-'
+JQUERY_DOCUMENT_READY_FUNCTION ='<script type="text/javascript">$(document).ready(function() {/*SCRIPT HERE*\});</script>'
 
 JAVASCRIPT_YEAR_FUNCTION = '<script>\n\
 function getCurrentYear() { // YEAR FUNCTION\n\
