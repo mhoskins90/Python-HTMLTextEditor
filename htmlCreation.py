@@ -1,7 +1,7 @@
 document_name = input('What do you want the document name to be?: ')
 file_name = "{0}{1}".format(document_name, ".html")
 
-INITIAL_HTML_TAGS = '\<!doctype html><html><head><meta charset="utf-8">'
+INITIAL_HTML_TAGS = '<!doctype html><html><head><meta charset="utf-8">'
 
 TITLE = '<title>{0}</title>'.format("starting text".lower().title())
 KEYWORDS = '<meta name="keywords" content="{0}" />'.format("Starting, Text")
