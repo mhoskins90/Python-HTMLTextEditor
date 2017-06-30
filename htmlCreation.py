@@ -3,9 +3,8 @@
 document_name = input('What do you want the document name to be?: ')
 file_name = "{0}{1}".format(document_name, ".html")
 
-INITIAL_HTML_TAGS = '\\
-<!doctype html>\n\
-<html>\n\
+INITIAL_HTML_TAGS = '\
+<!doctype html>\n\<html>\n\
 <head>\n\
 <meta charset="utf-8">\n\
 '
