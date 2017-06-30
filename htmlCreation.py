@@ -15,17 +15,11 @@ JQUERY_DOCUMENT_READY_FUNCTION ='<script type="text/javascript">$(document).read
 JAVASCRIPT_YEAR_FUNCTION = '<script>function getCurrentYear() {var d = new Date();\n\Year = d.getFullYear();document.write(Year);</script>'
 
 CLOSINGHEAD_OPENINGBODY_HEADER_NAV = '</head><body><header><!--HEADER GOES HERE--></header><nav><!--NAVIGATION GOES HERE--></nav>'
-BODY_CONTENT = '<h1>Starting Text</h1>\n\
-<p> Starting text in sentence </p>\n\
-'
+BODY_CONTENT = '<h1>Starting Text</h1><p> Starting text in sentence </p>'
 
-FOOTER = '<footer>{0} Copyright Matt Hoskins <script type="text/javascript">getCurrentYear();</script>.</footer>\n\
-'.format("&copy;")
+FOOTER = '<footer>{0} Copyright Matt Hoskins <script type="text/javascript">getCurrentYear();</script>.</footer>'.format("&copy;")
 
-ENDING_HTML_TAGS = '</body>\n\
-</html>'
-
-
+ENDING_HTML_TAGS = '</body></html>'
 HTML_PAGE_ELEMENTS = {
 	1:INITIAL_HTML_TAGS,
 	2:TITLE,
