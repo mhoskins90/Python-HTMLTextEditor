@@ -12,20 +12,9 @@ JQUERY_LINK = 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
 JQUERY_LINK_TAG = '<script src="{0}"></script>'.format(JQUERY_LINK)
 JQUERY_DOCUMENT_READY_FUNCTION ='<script type="text/javascript">$(document).ready(function() {/*SCRIPT HERE*\});</script>'
 
-JAVASCRIPT_YEAR_FUNCTION = '<script>\n\
-function getCurrentYear() { // YEAR FUNCTION\n\
-var d = new Date();\n\
-Year = d.getFullYear();\n\
-document.write(Year);\n\
-</script>\n\
-'
+JAVASCRIPT_YEAR_FUNCTION = '<script>function getCurrentYear() {var d = new Date();\n\Year = d.getFullYear();document.write(Year);</script>'
 
-CLOSINGHEAD_OPENINGBODY_HEADER_NAV = '</head>\n\
-<body>\n\
-<header><!--HEADER GOES HERE--></header>\n\
-<nav><!--NAVIGATION GOES HERE--></nav>\
-\
-'
+CLOSINGHEAD_OPENINGBODY_HEADER_NAV = '</head><body><header><!--HEADER GOES HERE--></header><nav><!--NAVIGATION GOES HERE--></nav>'
 BODY_CONTENT = '<h1>Starting Text</h1>\n\
 <p> Starting text in sentence </p>\n\
 '
